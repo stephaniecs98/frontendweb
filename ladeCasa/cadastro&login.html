@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style_login.css" media="screen" />
+    </head>
+
+    <body style="background-image: url(imgs/fundo.jpeg); background-repeat: no-repeat; background-position: absolute; background-size: 100%;">
+            
+        <section id="cabeçalho">
+            
+            <div>
+                <a href="home.html"><img id="logo" src="imgs/logo.png" ></a>
+            </div>
+
+        </section>
+
+        <section id="corpo">
+            <div id="tela_login">
+                <div id="menu_login">
+
+                    <form class="card">
+                        <h2 id="Login">Bem-Vindo de Volta!</h2>
+
+                        <div class="card-content">
+                            <div class="card-content-area">
+                                <label for="usuario">Usuário</label>
+                                <input type="text" id="usuario" autocomplete="off">
+                            </div>
+
+                            <div class="card-content-area">
+                                <label for="password">Senha</label>
+                                <input type="password" id="password" autocomplete="off">
+                            </div>
+
+                        </div>
+
+                        <div class="card-footer">
+                            <input type="submit" value="Login" class="submit">
+                            <a href="#" class="recuperar_senha">Esqueceu a senha?</a>
+                        </div>
+                        
+                    </form>
+
+                </div>
+            </div>
+
+            <div id="cadastro">
+                <div id="menu_cadastro">
+
+                    <form class="card">
+                        <h2 id="Login">Cadastre-se, aqui!</h2>
+
+                        <div class="card-content">
+                            <div class="card-content-area">
+                                <label for="usuario">Nome Completo</label>
+                                <input type="text" id="usuario" autocomplete="off">
+                            </div>
+
+                            <div class="card-content-area">
+                                <label for="e-mail">E-mail</label>
+                                <input type="text" id="e-mail" autocomplete="off">
+                            </div>
+                            
+                            <div class="card-content">
+                                <label for="nascimento">Data de Nascimento</label><br>
+                                <input class="nascimento" type="text" name="dia" size="2" maxlength="2" value="DD"> 
+                                <input class="nascimento" type="text" name="mes" size="2" maxlength="2" value="MM"> 
+                                <input class="nascimento" type="text" name="ano" size="4" maxlength="4" value="AAAA">
+                            </div>
+                            
+                            <div class="card-content-area">
+                                <label for="password">Senha</label>
+                                <input type="password" id="password" autocomplete="off">
+
+                            </div>
+
+                        </div>
+
+                        <div class="card-footer">
+                            <input type="submit" value="Cadastro" class="submit">
+                        </div>
+
+                    </form>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section id="rodape">
+            <div>
+
+            </div>
+        </section>
+
+    </body>
+</html>

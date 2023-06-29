@@ -1,0 +1,141 @@
+@font-face {
+    font-family: font-titulo;
+    src: url(fontes/Please\ write\ me\ a\ song.ttf);
+}
+@font-face {
+    font-family: font-fechar;
+    src: url(fontes/ADELIA.otf);
+}
+
+/* Modal */
+#confirma_compra{
+    position:           absolute;
+    bottom:             3%;
+    right:              5%;
+}
+.produto_cesta{ 
+    padding:            5% 2%;
+    width:              25%;
+    height:             15%;
+    margin:             5% 5%;
+    border:             1px solid #000;
+
+}
+#fechar{
+    font-family:        font-fechar;
+    position:           absolute;
+    top:                4%;
+    color:              red;
+    text-decoration:    none;
+    font-size:          20px;
+}
+#tela_carrinho {
+    font-family:        font-titulo;
+    visibility:         hidden;
+    padding:            10px;
+    position:           absolute;
+    align-items:        row;
+    display:            flex;
+
+  }
+#tela_carrinho:target{
+    visibility:         visible;
+    width:              25%;
+    height:             100%;
+    background:         #FFF;
+    position:           fixed;
+    align-items:        row;
+    display:            flex;
+    right:              0%;    
+    top:                0%;
+    border:             solid 2px #2dbb55;
+}
+#modal-carrinho {
+  background-color:     #FFF;
+  margin:               10% auto;
+  padding:              20px;
+  border-radius:        5px;
+  width:                50%;
+}
+.modal-content{
+    align-items:        row;
+    display:            flex;
+}
+
+/* Cabeçalho */
+#logo{
+    padding:            1% 3%;
+    width:              20%;
+}
+#carrinho{
+    width: 2%;
+    padding: 1% 3%;
+    margin: 1.3% 4%;
+    float: right;
+}
+#cabeçalho{
+    position:           relative;
+    top:                -8px;
+    left:               -8px;
+    height:             auto;
+    width:              101.2%;
+    background:         #2dbb55;
+}
+
+.menu_cadastro{
+    color:              #FFF;
+    float:              right;
+    padding-top:        2.5%;
+    padding-right:      1.5%;
+    font-size:          20px;
+    text-decoration:    none;
+    font-family:        Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Corpo */
+#conteudo{
+    display: flex;
+}
+#produto{
+    display:            flex;
+    width:              58%;
+}
+#imagem{
+    width: 40%;
+    margin: 5% auto;
+}
+#descricao{
+    display: column;
+    float:              right;
+    border:             solid 1px;
+    width:              38%;
+    margin-left:        10px;
+    padding: 0% 2%;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 0% auto;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: #e6e6e6;
+}
+.botao_submit{
+    width: 50%;
+    background-color:   yellow;
+    border-radius:      20% solid rgb(255, 208, 0);
+    font-family: font-titulo;
+    font-size: 20px;
+}
